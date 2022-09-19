@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: 100%;
+    border: 2px solid red;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    height: 7rem;
+    
+}
+.container{
+    border: 2px solid black;
+    width: 100%;
+    background-color: rgb(241, 228, 228);
+}
+.div1{
+    display: flex;
+   
+    width: 100%;
+}
+.div1 img{
+    padding-left: 0%;
+    border: 2px solid blue;
+    width: 15rem;
+    border-radius: 5%;
+}
+.yazi1{
+    font-weight: 600;
+    padding-left: 3rem;
+}
+ .dolar{
+    color: orangered;
+}
+.yazi2{
+    display: flex;
+    margin-left: 3rem;
+   border: 2px solid rgb(94, 89, 89);
+   border-radius: 10px;
+    height: 4rem;
+    padding: 1rem;
+    
+   
+    
+}
+.yazi2 button{
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    padding: 0%;
+}
+
+.yazi2 p{
+    width: 8rem;
+    font-size:1.5rem;
+    text-align: center;
+}
+.second{
+    margin-right: 0%;
+}
+.yazi3 h3{
+    background-color: brown;
+    margin-left:3rem ;
+    border-radius: 4%;
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.yazi3 h3:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.yazi4{
+    margin-left: 3rem;
+    display: flex;
+    
+}
+.yazi4 p{
+    font-size: 1.8rem;
+    font-weight:600 ;
+    margin-top: -5px;
+}
+
+.div2{
+    display: flex;
+    margin-top: 2rem;
+}
+.div2 img{
+    width:15rem ;
+    border-radius: 5%;
+}
+
+.div3{
+    display: flex;
+    margin-top: 2rem;
+}
+.div3 img{
+    width: 15rem;
+    border-radius: 5%;
+    
+}
+footer{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+footer div{
+    display: flex;
+    border-top: 2px solid black;
+    margin-top: 2rem;
+}
+footer h2{
+    align-items: flex-end;
+}
